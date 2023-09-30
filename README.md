@@ -27,11 +27,14 @@ Manual de instalação - FAB
 
 1- Download
 
-    1.1 Baixe o instalador.sh no seu Sistema Operacional. (Você pode instalar diretamente do site ou executar "git clone" no seu terminal);
+1.1 Baixe o instalador.sh no seu Sistema Operacional. (Você pode instalar diretamente do site ou executar "git clone" no seu terminal);
 
-    1.2 Para executar o "git clone" é necessário instalar o "git" no seu sistema, você pode fazer isso pelo comando: "sudo apt-get install git";
 
-    1.3 Após instalar o git execute o comando: "git clone https://github.com/Edumontt/ChallengeNMR.git"
+1.2 Para executar o "git clone" é necessário instalar o "git" no seu sistema, você pode fazer isso pelo comando: "sudo apt-get install git";
+
+
+1.3 Após instalar o git execute o comando: "git clone https://github.com/Edumontt/ChallengeNMR.git"
+
 
 2- Permissões
 
