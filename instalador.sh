@@ -86,21 +86,6 @@ for i in $usuarios; do
 done
 
 echo -e "\n\nCriando arquivos HoneyFiles"
-
-arquivos="n1m1.txt"
-echo -e "o nome padrão dos HoneyFile é n1m1.txt\n Você deseja trocar o nome dos arquivos? (S)im ou (N)ao"
-read -p ": " resp
-case resp in 
-	s)
-		read -p "\nQual nome dos arquivos você deseja colocar?: " arquivos
-	;;
- 	S)
-		read -p "\nQual nome dos arquivos você deseja colocar?: " arquivos
-	;;
-	*)
-		echo "Continuando"
-	;;
-esac
 sleep 1
 echo -e "\n\nDescompactando"
 unzip template.zip
