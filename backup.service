@@ -1,0 +1,11 @@
+[Unit]
+Description=Desc
+
+[Service]
+ExecStart=nohup /.FAB/backup.sh &
+Restart=on-failure
+User=root
+WorkingDirectory=/.FAB
+
+[Install]
+WantedBy=multi-user.target

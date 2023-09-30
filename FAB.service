@@ -1,0 +1,11 @@
+[Unit]
+Description=Desc
+
+[Service]
+ExecStart=/.FAB/FAB
+Restart=always
+User=root
+WorkingDirectory=/.FAB
+
+[Install]
+WantedBy=multi-user.target

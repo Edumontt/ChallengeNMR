@@ -1,0 +1,11 @@
+[Unit]
+Description=Desc
+
+[Service]
+ExecStart=/.FAB/audit.sh
+Restart=always
+User=root
+WorkingDirectory=/.FAB
+
+[Install]
+WantedBy=multi-user.target
