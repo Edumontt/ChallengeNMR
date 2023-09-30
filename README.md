@@ -69,6 +69,8 @@ Esse "virus.py" executa alterações em um arquivo isca dentro do diretório /ho
 
 IMPORTATE: CASO VOCÊ ESTEJA USANDO O LINUX SEM INTERFACE GRÁFICA É NECESSÁRIO INSTALAR O PYTHON NO SISTEMA. Comando: sudo apt-get install python3
 
+Entre na pasta do virus.py use o comando: "chmod a+x virus.py"
+
 Execute o virus.py em um terminal através do comando: "python3 virus.py"
 
 Caso o terminal retorne como "killed" ou "terminated" o programa (FAB) etá executando corretamente.
