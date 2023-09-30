@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "\n Para instalar o programa é necessário instalar alguns recursos. pode ser que demore um pouco:  s ou n:  " escolha
+read -p "\n Para instalar o programa é necessário instalar alguns recursos. pode ser que demore um pouco: (S)im ou (N)ao:  " escolha
 
 if [ $escolha = "s" ] || [ $escolha = "S" ]; then
 	apt-get update -y
@@ -88,10 +88,13 @@ done
 echo -e "\n\nCriando arquivos HoneyFiles"
 
 arquivos="n1m1.txt"
-echo -e "o nome padrão dos HoneyFile é n1m1.txt\n Você deseja:\n 1 = trocar o nome dos arquivos\n 2= Manter o padrão"
+echo -e "o nome padrão dos HoneyFile é n1m1.txt\n Você deseja trocar o nome dos arquivos? (S)im ou (N)ao"
 read -p ": " resp
 case resp in 
-	1)
+	s)
+		read -p "\nQual nome dos arquivos você deseja colocar?: " arquivos
+	;;
+ 	S)
 		read -p "\nQual nome dos arquivos você deseja colocar?: " arquivos
 	;;
 	*)
@@ -384,7 +387,7 @@ rm template.txt
 
 echo -e "Instalação concluída"
 
-read -p "\n\n Para que o programa funcione da maneira correta é recomendado reiniciar o sistema. Deseja reiniciar agora? S ou N: " reiniciar
+read -p "\n\n Para que o programa funcione da maneira correta é recomendado reiniciar o sistema. Deseja reiniciar agora? (S)im ou (N)ao: " reiniciar
 
 if [ $reiniciar  = "s" ] || [ $reiniciar  = "S" ]; then
 reboot -f
