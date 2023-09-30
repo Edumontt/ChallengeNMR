@@ -71,5 +71,3 @@ IMPORTATE: CASO VOCÊ ESTEJA USANDO O LINUX SEM INTERFACE GRÁFICA É NECESSÁRI
 Execute o virus.py em um terminal através do comando: "python3 virus.py"
 
 Caso o terminal retorne como "killed" ou "terminated" o programa (FAB) etá executando corretamente.
-
-CZe9gZ6x03b0HvfpHdYtKZ93tG2az6y99/PPNcAZOTnbfo+mdlvtyeSwCXftlFeL4M5tq0avRcgRKg2a2Nf7BCDHggH8s3i92oUnVCD51A2P/l/Bje1ywVyZJVworz9aUBaIk5agSI6TTSX/hzuP97EwLcid0zyEQRVMbtrfz8fPo6pTMY0h4JKyesWsGOE5
