@@ -45,6 +45,7 @@ Manual de instalação - FAB
 2.2 Altere as permissões do instalador para que ele possa ser executado(certifique-se que o terminal está na mesma pasta do instalador);
 
 2.3 Comando a ser executado no terminal: "chmod a+x instalador.sh"
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 3- Instalação
@@ -52,6 +53,7 @@ Manual de instalação - FAB
 3.1 Execute o instalador, siga os passos indicados e aguarde a mensagem de instalação concluída;
 
 3.2 Comando a ser executado no terminal: "./instalador.sh"
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 4- Execução
