@@ -369,7 +369,6 @@ echo -e "\n---------------------------------------------------------"
 rm -rf codigo.c
 rm -rf template.zip
 rm -rf template.txt
-rm -rf 
 
 
 echo -e "Instalação concluída"
