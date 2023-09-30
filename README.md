@@ -60,8 +60,6 @@ Manual de instalação - FAB
 
 4.1 Reinicie o computador. O programa e o serviço de backup serão executados automaticamente com o sistema.
 
-#### IMPORTATE: O PROGRAMA CRIA OS ARQUIVOS HONEYFILES DE ACORDO COM A ESCOLHA DO USUÁRIO !!! ####
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Esse git vem com um programa em python chamado "virus.py"(Esse programa não é um vírus malicioso) para verificar se o programa está realmente em execução;
