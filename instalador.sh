@@ -86,6 +86,7 @@ for i in $usuarios; do
 done
 
 echo -e "\n\nCriando arquivos HoneyFiles"
+arquivos="n1m1.txt"
 sleep 1
 echo -e "\n\nDescompactando"
 unzip template.zip
