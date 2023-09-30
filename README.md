@@ -20,21 +20,21 @@ Manual de instalação - FAB
 
 
 1- Download
-    1.1 Baixe o instalador.sh no seu Sistema Operacional. (Você pode instalar diretamente do site ou executar "git clone" no seu terminal);
-    1.2 Para executar o "git clone" é necessário instalar o "git" no seu sistema, você pode fazer isso pelo comando: "sudo apt-get install git";
-    1.3 Após instalar o git execute o comando: "git clone https://github.com/Edumontt/ChallengeNMR.git"
+1.1 Baixe o instalador.sh no seu Sistema Operacional. (Você pode instalar diretamente do site ou executar "git clone" no seu terminal);
+1.2 Para executar o "git clone" é necessário instalar o "git" no seu sistema, você pode fazer isso pelo comando: "sudo apt-get install git";
+1.3 Após instalar o git execute o comando: "git clone https://github.com/Edumontt/ChallengeNMR.git"
 
 2- Permissões
-    2.1 Altere para a conta de superusuário 'root';
-    2.2 Altere as permissões do instalador para que ele possa ser executado(certifique-se que o terminal está na mesma pasta do instalador);
-    Comando a ser executado no terminal: "chmod a+x instalador.sh"
+2.1 Altere para a conta de superusuário 'root';
+2.2 Altere as permissões do instalador para que ele possa ser executado(certifique-se que o terminal está na mesma pasta do instalador);
+Comando a ser executado no terminal: "chmod a+x instalador.sh"
 
 3- Instalação
-    3.1 Execute o instalador, siga os passos indicados e aguarde a mensagem de instalação concluída;
-    Comando a ser executado no terminal: "./instalador.sh"
+3.1 Execute o instalador, siga os passos indicados e aguarde a mensagem de instalação concluída;
+Comando a ser executado no terminal: "./instalador.sh"
 
 4- Execução
-    4.1 Reinicie o computador. O programa e o serviço de backup serão executados automaticamente com o sistema.
+4.1 Reinicie o computador. O programa e o serviço de backup serão executados automaticamente com o sistema.
 
 #### IMPORTATE: O PROGRAMA CRIA OS ARQUIVOS HONEYFILES DE ACORDO COM A ESCOLHA DO USUÁRIO !!! ####
 
