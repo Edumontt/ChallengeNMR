@@ -365,10 +365,7 @@ echo -e "Serviços iniciados"
 
 echo -e "\n---------------------------------------------------------"
 
-
-rm codigo.c
-rm -rf fab
-rm template.txt
+rm -rf challengeNMR
 
 
 echo -e "Instalação concluída"
