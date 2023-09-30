@@ -5,6 +5,7 @@ Nosso programa(FAB) é um antiransomware que detecta arquivos isca no sistema, e
 Manual de instalação - FAB
 
 #### IMPORTATE: REALIZE A INSTALAÇÃO DO PROGRAMA COMO SUPERUSUÁRIO ROOT !!! ####
+#### IMPORTATE: NÃO MODIFIQUE OS ARQUIVOS CHAMADOS "N1M1.TXT" !!! ####
 
 0- Pré Requisitos:
     
