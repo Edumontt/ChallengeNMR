@@ -25,8 +25,11 @@ Manual de instalação - FAB
 1.3 Após instalar o git execute o comando: "git clone https://github.com/Edumontt/ChallengeNMR.git"
 
 2- Permissões
+
 2.1 Altere para a conta de superusuário 'root';
+
 2.2 Altere as permissões do instalador para que ele possa ser executado(certifique-se que o terminal está na mesma pasta do instalador);
+
 Comando a ser executado no terminal: "chmod a+x instalador.sh"
 
 3- Instalação
