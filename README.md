@@ -25,6 +25,7 @@ Manual de instalação - FAB
 -  gcc
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
 1- Download
 
 1.1 Baixe o instalador.sh no seu Sistema Operacional. (Você pode instalar diretamente do site ou executar "git clone" no seu terminal);
@@ -36,6 +37,7 @@ Manual de instalação - FAB
 1.3 Após instalar o git execute o comando: "git clone https://github.com/Edumontt/ChallengeNMR.git"
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
 2- Permissões
 
 2.1 Altere para a conta de superusuário 'root';
