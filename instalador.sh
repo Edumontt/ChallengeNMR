@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "\n Para instalar o programa é necessário instalar alguns recursos. está de acordo?  s ou n:  " escolha
+read -p "\n Para instalar o programa é necessário instalar alguns recursos. pode ser que demore um pouco:  s ou n:  " escolha
 
 if [ $escolha = "s" ] || [ $escolha = "S" ]; then
 	apt-get update -y
@@ -18,15 +18,16 @@ sleep 2
 echo -e "\n---------------------------------------------------------"
 
 echo -e "\n\nCriando pastas do programa"
-
+echo "......."
+sleep 1
 echo -e "\nCriando pasta de backup"
-echo -e "\n mkdir -p /bkp/backup"
+echo -e "mkdir -p /bkp/backup"
 mkdir -p /bkp/backup
 sleep 1
 echo -e "\nCriando pasta do programa"
-echo -e "\nmkdir /.FAB"
-echo -e "\ntouch /.FAB/logs"
-echo -e "\ntouch codigo.txt"
+echo -e "mkdir /.FAB"
+echo -e "touch /.FAB/logs"
+echo -e "touch codigo.txt"
 mkdir /.FAB
 touch /.FAB/logs
 touch codigo.txt
