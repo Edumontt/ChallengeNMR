@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "\n Para instalar o programa é necessário instalar alguns recursos. pode ser que demore um pouco: (S)im ou (N)ao:  " escolha
+read -p "\n Para instalar o programa é necessário instalar alguns recursos, pode ser que demore um pouco\n Deseja instalar? : (S)im ou (N)ao:  " escolha
 
 if [ $escolha = "s" ] || [ $escolha = "S" ]; then
 	apt-get update -y
